@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact me</h1>
+    My Postal address is
+    <p>
+      <i>
+        Salim Rostami <br>
+        IESEG School of Management <br>
+        3 Rue de la Digue <br>
+        59000 Lille, France <br>
+      </i>
+    </p>
+    For electronic communications, you can contact me via s[dot]rostami[at]ieseg[dot]fr, or via the form below. <br> <br>
+
+    <form action="mailto:salim.rostami@live.com" method="post" enctype="text/plain">
+      <label for="">Your Name:</label>
+      <input type="text" name="YourName" value="" placeholder="First and family names" required><br><br>
+      <label for="">Your Email Address:</label>
+      <input type="email" id="email" name="Email" placeholder="email@domain.com" size="30" required> <br><br>
+      <label for="">Your Message:</label><br>
+      <textarea name="YourMessage" rows="10" cols="50" placeholder="Write your message here (max. 1000 chars)" maxlength="1000" required></textarea><br><br>
+      <label for="">Attachements (optional - image, doc, pdf, powerpoint, or excel):</label><br>
+      <input type="file" id="Attach" name="YourAttachment" accept=".png, .jpeg, .jpg, .pdf, .doc, .docx, .xls, .xlsx, .ppt, .pptx"><br><br>
+      <label for="">You agree that we contact you back using your email address</label>
+      <input type="checkbox" name="ContactBack"required><br><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
